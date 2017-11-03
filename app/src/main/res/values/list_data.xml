@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name = "menulist">
+        <item>Balance Enquiry</item>
+        <item>Customer Account List</item>
+        <item>Customer Details</item>
+        <item>Transaction Details</item>
+        <!--<item>Search customers</item>-->
+        <item>Deposit by customer number</item>
+        <item>Deposit by account number</item>
+         <item>Withdraw by customer number</item>
+        <item>Withdraw by account number</item>
+        <item>Customer Loan Origination</item>
+        <item>Non-customer Loan Origination</item>
+        <item>Account Creation</item>
+        <item>Sika Plus Transfer</item>
+        <item>GN Mobile Money</item>
+    </string-array>
+    
+    <string-array name = "transaction_list">
+        <item>Transaction 1</item>
+        <item>Transaction 2</item>
+        <item>Transaction 3</item>
+        <item>Transaction 4</item>
+        <item>Transaction 5</item>
+        <item>Transaction 6</item>
+        <item>Transaction 7</item>
+        <item>Transaction 8</item>
+    </string-array>
+    
+    <string-array name = "prod_list">
+        <item>Current Account</item>
+        <item>Savings Account</item>
+        
+    </string-array>
+
+
+    
+</resources>

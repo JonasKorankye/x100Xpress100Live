@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrnd"
+    android:padding="5sp"
+    android:orientation="vertical"
+    tools:context=".TransactionChoice" >
+
+    <LinearLayout
+        android:id="@+id/TDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TDetailView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Trans Details"
+            android:textSize="20sp"></TextView>
+
+        <EditText
+            android:id="@+id/TDetailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:inputType="date"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/TNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/TNumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="Trans Number"
+            android:textSize="20sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/TNumEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:inputType="none" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/DAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/DAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Debit Amount"
+            android:textSize="20sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/DAmountEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:inputType="none" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/CAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/CAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="Credit Amount"
+            android:textSize="20sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/CAmountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:inputType="none" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ConWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ConWalletTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="Contra Wallet"
+            android:textSize="20sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/ConWalletEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:inputType="none" >
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/balenq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Balance Enquiry"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#444444" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#BBBBBB" />
+
+    <TextView
+        android:id="@+id/trasenq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Transaction Enquiry"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#444444" />
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#BBBBBB" />
+
+    <TextView
+        android:id="@+id/dep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Deposit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#444444" />
+
+    <View
+        android:id="@+id/line4"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#BBBBBB" />
+
+    <TextView
+        android:id="@+id/loan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Loan Origination"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#444444" />
+
+</LinearLayout>

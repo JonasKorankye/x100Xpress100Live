@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_color"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/sector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#444444"
+        android:textSize="15sp" />
+    <!--
+    <TextView
+        android:id="@+id/alias_acc_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/alias_name"
+        android:layout_toEndOf="@+id/alias_name"
+        android:textColor="#0067C6"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    -->
+
+    <TextView
+        android:id="@+id/sector_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sector"
+        android:layout_alignBottom="@+id/sector"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:textColor="#0067C6"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+    <!-- <ImageView
+        android:id="@+id/flag"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/desc"
+        android:paddingBottom="8dp"
+        android:paddingTop="7dp"
+        android:src="@drawable/more" /> -->
+    
+    
+
+</RelativeLayout>

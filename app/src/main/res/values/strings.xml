@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">x100Xpress</string>
+    <string name="action_settings">Settings</string>
+    <string name="view_file">View log file</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="enterLogin">Password </string>
+    <string name="enternumber">UserID </string>
+    <string name="login">Login</string>
+    <string name="loginBut">Login</string>
+    <string name="amount">Amount </string>
+    <string name="okbutton">OK</string>
+    <string name="enterAcc">Enter account number</string>
+    <string name="cust_number">Please enter customer number </string>
+    <string name="custName">Customer name </string>
+    <string name="lastName">Last name </string>
+    <string name="dateOfBirth">Date of birth </string>
+    <string name="custNumber">Customer number</string>
+    <string name="idType">ID type </string>
+    <string name="idNumber">ID number </string>
+    <string name="branch">Branch</string>
+    <string name="phoneNum">Phone number </string>
+    <string name="accDesc">Full name </string>
+    <string name="acc_num">A/C number </string>
+    <string name="acc_name">Name of Account </string>
+	<string name="name">Name: </string>
+	<string name="accName">A/C name </string>
+	<string name="depositamt">Deposit Amount </string>
+	<string name="deposit_hint">Enter amount to deposit</string>
+	<string name="withdrawalamt">Withdrawal Amount </string>
+	<string name="loan_amt">Amount Requested </string>
+	<string name="withdrawal_hint">Enter amount to withdraw</string>
+	<string name="narration">Narration </string>
+	<string name="comments">Comments </string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="status">Status </string>
+    <string name="desc"></string>
+    <string name="passcode">Passcode </string>
+    <string name="enter_id">Please enter ID number </string>
+    <string name="choose_prod">Select Product</string>
+    <string name="retrieve_sub_prod">Retrieve Sub-Products</string>
+    <string name="retrieve_ids">Retrieve ID Types</string>
+    <string name="retrieve_arms">Retrieve ARMs</string>
+    <string name="retrieve_subsectors">Retrieve sub-sectors</string>
+    <string name="choose_sub_prod">Select Sub-Product</string>
+    <string name="fetch_more">Fetch more&#8230;</string>
+
+    <string name="balance1">Balance cleared </string>
+    <string name="balance2">Balance uncleared </string>
+    <string name="middleName">Middle name </string>
+    <string name="sector">Sector</string>
+    <string name="loan_amount">Hello world!</string>
+    
+    <string name="date">Date </string>
+    <string name="trans_type">Transaction type: </string>
+    <string name="credit">Amount </string>
+    <string name="debit">Amount debited:</string>
+    
+    <string name="welcome">Welcome </string>
+    <string name="last_login">Last login time: </string>
+    <string name="menu_balance">Balance Enquiry</string>
+    <string name="menu_acc_list">Customer Account List</string>
+    <string name="menu_cust_details">Customer Details</string>
+    <string name="menu_airtime_topup">Transaction Details</string>
+    <string name="menu_entertain">Deposit</string>
+    <string name="menu_other_services">Withdrawal</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_bank">Bank Menu</string>
+    <string name="open">Open</string>
+    <string name="back">Back</string>
+    
+    <string name="acct_creation">Account Creation</string>
+    <string name="personal_block">Personal Details</string>
+    <string name="address_block">Address Details</string>
+    <string name="doc_block">Document Details</string>
+    <string name="contact_block">Contact Details</string>
+    <string name="create_acc">Create Account</string>
+    
+    <string name="fname">First Name</string>
+    <string name="mname">Middle Name</string>
+    <string name="lname">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="cont">Continue</string>
+    <string name="dob">Date of birth</string>
+    <string name="address">Address</string>
+    <string name="phone1">Phone 1</string>
+    <string name="phone2">Phone 2</string>
+    <string name="email">Email</string>
+    <string name="post_address">Postal Address Details</string>
+    <string name="phy_address">Physical Address Details</string>
+    <string name="postal_city">City</string>
+    <string name="region">Region</string>
+    <string name="location">Location</string>
+    <string name="city">City</string>
+    <string name="landmark">Nearest Landmark</string>
+    <string name="id_type">ID Type</string>
+    <string name="id_details">ID Details</string>
+    <string name="id_num">ID Number</string>
+    <string name="confirm">Confirm</string>
+    <string name="exit">Exit</string>
+    
+    <string name="sender_details">Sender Details</string>
+    <string name="receiver_details">Receiver Details</string>
+    <string name="security_details">Security Details</string>
+    <string name="sika_name">Name</string>
+    <string name="sika_address">Address</string>
+    <string name="sika_tel_number">Phone number</string>
+    <string name="sika_question">Question</string>
+    <string name="sika_answer">Answer</string>
+    <string name="remittance_no">Remittance No.</string>
+    
+    <string name="acct_sector">Select sector </string>
+    <string name="sub_sector">Select sub-sector </string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+
+    <string name="wal_number">Enter phone number</string>
+    <string name="wal_numb">Phone number</string>
+    <string name="wal_name">Wallet name</string>
+    <string name="wal_num">Enter wallet number</string>
+    <string name="wal_bal">Wallet balance</string>
+    <string-array name="menu_list">
+
+        <item>View Accounts</item>
+        <item>Funds Transfer</item>
+        <item>Contact Us</item>
+        <item>Help</item>
+        <item>Settings</item>
+    </string-array>
+    <string name="start_date">Start Date</string>
+    <string name="agents_id">Agents ID</string>
+    <string name="end_date">End Date</string>
+    <string name="beneNum">Beneficiary Number</string>
+    <string name="senderName">Customer Name</string>
+    <string name="amt">Amount</string>
+    <string name="postDate">Posted Date</string>
+    <string name="transNum">Transaction Number</string>
+    <string name="token">Token</string>
+    <!--<array name="nav_drawer_icons">-->
+        <!--<item>@drawable/a2_view</item>-->
+        <!--<item>@drawable/a1_transfer</item>-->
+        <!--<item>@drawable/a5_contact</item>-->
+        <!--<item>@drawable/a4_help</item>-->
+        <!--<item>@drawable/a3_settings</item>-->
+    <!--</array>-->
+ 
+</resources>

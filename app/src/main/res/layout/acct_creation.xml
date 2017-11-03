@@ -1,0 +1,207 @@
+<liststuff.CustomViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/action_bar_background" >
+
+</liststuff.CustomViewPager>
+
+
+
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrnd"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp" >
+
+    
+         <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"     
+        android:textSize="20sp"
+        android:text="@string/personal_block"
+        android:background="@drawable/button_shape"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+   
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/white_back" >
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:hint="@string/fname"
+            android:inputType="text"
+            android:paddingBottom="4dp"
+            android:paddingEnd="4dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="4dp"
+            android:paddingStart="7dp"
+            android:paddingTop="4dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        
+         <TextView
+        android:id="@+id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignTop="@+id/trans_summary"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:textColor="#0067C6"
+        android:textStyle="bold"/>
+       
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/fname"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#777777" />
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:hint="@string/lname"
+            android:inputType="text"
+            android:paddingBottom="4dip"
+            android:paddingEnd="4dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="4dp"
+            android:paddingStart="7dp"
+            android:paddingTop="4dip"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        
+         <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trans_date"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/trans_date"
+        android:textSize="20sp"
+        android:textColor="#0067C6"
+        android:textStyle="bold"/>
+       
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/lname"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#777777" />
+
+        <EditText
+            android:id="@+id/mname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line2"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:hint="@string/mname"
+            android:inputType="text"
+            android:paddingBottom="4dp"
+            android:paddingEnd="4dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="4dp"
+            android:paddingStart="7dp"
+            android:paddingTop="4dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        
+         <TextView
+        android:id="@+id/amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/trans_amt"
+        android:textSize="20sp"
+        android:textColor="#0067C6"
+        android:textStyle="bold"/>
+       
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/mname"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#777777" />
+        
+        <TextView
+        android:id="@+id/gender_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:gravity="start"
+        android:textSize="16sp"
+        android:text="@string/gender"
+        android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/radio_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender_text" >
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/male"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </RadioGroup>
+    </RelativeLayout>
+    
+    <Button
+        android:id="@+id/contButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/cont"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout> -->
